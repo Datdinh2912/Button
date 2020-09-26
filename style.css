@@ -7,13 +7,15 @@
 }
 body
 {
-	background-image: url(https://i.imgur.com/BHPUd0d.jpg);
+	background-image: linear-gradient(to left bottom, #051937, #002d4a, #004057, #00545b, #00675a);
  	background-size: 100%;
 	margin: 0;
 	padding: 0;
 	height: 100vh;
 	display: flex;
 	justify-content: center;
+	align-items: center;
+}
 }
 .cointainer
 {
@@ -28,37 +30,38 @@ a
 	padding: 15px;
 	text-align: center;
 	width: 100px;
-	height: 60px;
-	border: 1px solid #00B2BF;
+	height: 50px;
+	border: 1px solid #0e8cf1;
 	text-transform: uppercase;
 	font-size: 100%;
-	transition: 0.2s;
-	color: #00B2BF;
+	transition: 0.3s;
+	color: #0e8cf1;
 	border-radius: 30px;
 	text-decoration: none;
-	box-shadow: 0 0 15px #00B2BF;
+	box-shadow: 0 0 15px #0e8cf1;
 }
 i
 {
-	padding: 5px;
+	padding: 10px;
 	color: #139bf7;
 	text-align: center;
 	display: flex;
 	justify-content: center;
+	transition: 0.3s;
 }
 a:nth-child(2)
 {
-	filter: hue-rotate(40deg);
+	filter: hue-rotate(700deg);
 }
 .button a:hover
 {
-	width: 155px;
-	height: 85px;
-	background: #00B2BF;
-	box-shadow: 0 0 10px #00B2BF, 0 0 20px #00B2BF,
-	 0 0 30px #00B2BF, 0 0 40px #00B2BF;
-}
-.button a i:hover
-{
+	background: #0e8cf1;
 	color: #000011;
+	box-shadow: 0 0 10px #0e8cf1, 0 0 20px #0e8cf1,
+	 0 0 30px #0e8cf1, 0 0 40px #0e8cf1;
+}
+.button a:hover i
+{
+	color: #CAE5E8;	
+	
 }
